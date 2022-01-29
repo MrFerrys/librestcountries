@@ -1,0 +1,19 @@
+{
+    "name": "mrferrys/librestcountries",
+    "description": "Library for getting countries info from restcountries.com",
+    "type": "library",
+    "require": {
+      "php": ">=5.0.0"
+    },
+    "license": "MiT",
+    "authors": [
+      {
+        "name": "Ferrys",
+        "email": "mymail@mail.com"
+      }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+      "classmap": ["src/"]
+    }
+  }
