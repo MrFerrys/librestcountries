@@ -18,7 +18,6 @@ composer require mrferrys/librestcountries
 
 * How to list all countries.
 ```
-	require_once(dirname(__FILE__).'/src/restcountriesclient.php');
 	use librestcountries\restCountriesClient as rcClient;
 	
 	$restClient 			= 	new rcClient();
